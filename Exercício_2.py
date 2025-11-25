@@ -1,18 +1,17 @@
 # Aluno: Victor Hugo Carlim Pedroni dos Passos
 # Disciplina: Python Scripting - Pós Graduação em Cibersegurança
-# Lista 1 - Exercício 2: Elaborar um algoritmo que solicita ao usuário seu ano de nascimento e calcula
-# sua idade com relação ao ano de 2020, sendo que o usuário já fez aniversário
-# neste ano
+# Lista 1 - Exercício 2: Elaborar um algoritmo que solicita ao usuário seu ano de nascimento e calcula sua idade com relação ao ano de 2025, sendo que o usuário já fez aniversário neste ano
 
-print(">>> Calculadora de Idade (Base 2020) <<<")
+print(">>> Calculadora de Idade (Base 2025) <<<")
 print("-"*40)
 
 # Entrada
 ano_de_nascimento = int(input("Digite o ano em que você nasceu: "))
 
 # Processamento
-idade_calculada = 2020 - ano_de_nascimento
+idade_calculada = 2025 - ano_de_nascimento
 
 # Saída
 print("-"*40)
-print(f"Sua idade (considerando o ano de 2020) é: {idade_calculada} anos")
+
+print(f"Sua idade (considerando o ano de 2025) é: {idade_calculada} anos")
